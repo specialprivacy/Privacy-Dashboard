@@ -1,0 +1,75 @@
+@media (max-width: 992px) {
+  #main-view-container {
+    margin-right: 0 !important;
+  }
+
+  #content-container {
+    padding-top: 15px !important;
+  }
+}
+
+.headline svg {
+  transform: scale(1.2);
+  margin: 0px 10px 0 5px;
+  fill: none !important;
+  stroke: grey !important;
+}
+
+#my-profile h5 svg, 
+#my-data h5 svg,
+#my-permissions h5 svg {
+  transform: scale(1);
+  fill: grey !important;
+  margin-right: 5px;
+}
+
+#my-profile .custom-card-action, 
+#my-data .custom-card-action,
+#my-permissions .custom-card-action {
+  margin-bottom: 20px;
+}
+
+#my-profile .custom-card-action svg, 
+#my-data .custom-card-action svg,
+#my-permissions .custom-card-action svg {
+  fill: grey !important;
+  stroke: none !important;
+}
+
+#my-profile .number-indicator, 
+#my-data .number-indicator,
+#my-permissions .number-indicator {
+  font-size: 92px;
+  padding: 0;
+  margin: 0;
+}
+
+#my-profile .indicator-sub, 
+#my-data .indicator-sub,
+#my-permissions .indicator-sub {
+  padding: 0;
+  margin: 10px 0;
+}
+
+td {
+  overflow: visible !important;
+  text-overflow: unset !important;
+}
+
+#footer {
+  background: white;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+#footer img {
+  width: 200px;
+}
+
+#footer p {
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold;
+}

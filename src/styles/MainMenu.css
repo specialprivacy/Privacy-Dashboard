@@ -1,0 +1,10 @@
+#main-menu svg {
+  fill: none !important;
+  stroke: grey !important;
+  stroke-width: 1px;
+}
+
+#main-menu .logout-btn svg {
+  fill: white !important;
+  stroke: none !important;
+}

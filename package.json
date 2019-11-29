@@ -1,0 +1,34 @@
+{
+  "name": "special-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://backend.special.tlabs.cloud/dashboard",
+  "devDependencies": {
+    "react-scripts": "^3.1.1"
+  },
+  "dependencies": {
+    "@nivo/calendar": "^0.59.1",
+    "leaflet": "^1.5.1",
+    "material-ui": "0.20.2",
+    "nivo": "^0.31.0",
+    "react": "16.9.0",
+    "react-data-table-component": "^3.5.0",
+    "react-dom": "16.9.0",
+    "react-json-pretty": "^2.1.0",
+    "react-leaflet": "^2.4.0",
+    "request": "^2.88.0",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
